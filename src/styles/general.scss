@@ -1,0 +1,25 @@
+@import url('http://fonts.cdnfonts.com/css/amazon-ember');
+
+$color-1: #242c33; 
+$color-2: #f8f8f1;
+
+$color-foreground: $color-1;
+$color-background: $color-2;
+$color-alternate-foreground: $color-background;
+$color-alternate-background: $color-foreground;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  font-family: 'Open Sans', 'Amazon Ember', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}

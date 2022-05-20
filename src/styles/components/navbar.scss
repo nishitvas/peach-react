@@ -1,0 +1,32 @@
+@import '../general';
+
+.navbar {
+  background-color: $color-alternate-background;
+  color: $color-alternate-foreground;
+  padding: 5px;
+
+  @media (min-width: 600px){
+    padding: 15px;
+  }
+
+  ul {        
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    // grid-template-columns: 1fr repeat(auto-fill, fit-content(50px));
+    grid-gap: 30px;
+    justify-content: right;
+    justify-items: end;
+    align-items: baseline;
+  }
+
+  .navBrand {
+    position: relative;
+    text-decoration: none;
+    color: $color-alternate-foreground;
+    justify-self: start;
+    font-size: x-large;
+  }
+}
